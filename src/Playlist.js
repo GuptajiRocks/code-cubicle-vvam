@@ -143,8 +143,9 @@ export default function Example() {
                       placeholder="Add Link"
                       className="w-full px-4 py-2 border border-blue-500 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
                     />
-                    <button className="px-10 py-1 text-white bg-blue-500 rounded hover:bg-blue-600"><a href={'https://code-cubicle-course-creator-v1.vercel.app/dashboard'}></a>
-                      PlayList+
+                    <button className="px-10 py-1 text-white bg-blue-500 rounded hover:bg-blue-600"><a href='https://code-cubicle-course-creator-v1.vercel.app/dashboard'>
+                      Go to Course
+                    </a>
                     </button>
                   </div>
                 </div>

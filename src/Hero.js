@@ -150,7 +150,9 @@ export default function Example() {
                   className="w-full px-4 py-2 border border-blue-500 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
                 <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600">
-                  Summarize
+                  <a href='https://code-cubicle-course-creator-v1.vercel.app/dashboard'>
+                  Go to course
+                  </a>
                 </button>
               </div>
             </div>
