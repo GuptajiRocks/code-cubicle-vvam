@@ -6,21 +6,26 @@ import {
 
 const features = [
   {
-    name: "Links pushed to Langchain model",
+    name: "Solution",
     description:
-      "The Links provided by the user is accepted as a valid YT link and then sent to the langchain model, which is then stored in a pinecone vector database, with the key being the course code which the user requires.",
+      "Currently in the market, no free and open source products are available to effectively summarise YT videos. Our product does that and helps users Generate precise content out of their YT videos with the help of Langchain model.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "Previous Prompt Response",
+    name: "Phase 1 progress.",
     description:
-      "Since we're using PineCone",
+      "Frontend prototype built in NextJS and React components, display and input functionalities built and works excellent on standalone deployment.\n" +
+        "\n" +
+        "Backend model works best standalone as well with the POST request working on Pinecone model and Langchain  AI with the input being the YT video and the output being the summary.\n" +
+        "GET AND POST requests are working fine with key mapping in the pinecone as well.",
     icon: LockClosedIcon,
   },
   {
-    name: "Database backups.",
+    name: "Business Opportunities",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "Since the market is currently lacking free YouTube video summarisers, our product pertains to the demographic of students and developers who can tweak and work and build upon the software without worrying about uncessary pricing problems.\n" +
+        "\n" +
+        "When the product reaches a certain popularity and active users, we can capitalise on the pre built audience and generate additional revenue streams.",
     icon: ServerIcon,
   },
 ];
@@ -36,12 +41,11 @@ export default function Example() {
                 Engagement enhancer
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Summarized Content
+                Problem Statement
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Having multiple Youtube videos to watch, when there is a time constraint can be a tough task. Since the inception of AI it has become feasible to do stuff that wasn't achievable before. Here comes into play our freely available Youtube video summariser and course generator.
+
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
