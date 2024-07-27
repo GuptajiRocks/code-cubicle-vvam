@@ -139,7 +139,7 @@ export default function Example() {
           </div>
           <div className="text-center">
             <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Effortless video summaries for better content.
+              Convert your video links and resources into a structured course
             </h1>
 
             <div className="mt-6 flex justify-center">
